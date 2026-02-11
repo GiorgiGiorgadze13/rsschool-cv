@@ -5,6 +5,7 @@
     --neutral-purple: #B292FF;
 }
 
+ 
 body {
     background-color: var(--purple);
 }
@@ -78,7 +79,7 @@ body {
 
 .textcontent span {
     color: var(--neutral-purple);
-    font-size: 20;
+    font-size: 20px;
     font-weight: 600;
 
 }
@@ -168,7 +169,7 @@ body {
     color: white;
 }
 
-.projectwrapper h2 {
+.projectwrapper h2, li {
     font-size: 22px;
     color: var(--neutral-purple);
 }
@@ -178,11 +179,7 @@ body {
     color: var(--neutral-purple);
 }
 
-.projectwrapper li {
-    font-size: 20px;
-    color: white;
-}
-
+ 
 .foot {
     display: flex;
     justify-content: space-between;
@@ -204,4 +201,28 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 10px;
+}
+
+@media (max-width: 768px) {
+    .mainwrapper {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .textcontent {
+        max-width: 90%;
+        text-align: center;
+    }
+
+    .navmenu ul {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+    .foot{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
 }
