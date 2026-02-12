@@ -282,3 +282,20 @@ body {
     font-size: 16px;       
   }
 }
+
+.footer{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+  
+     
+    
+ }
+ .footer span{
+    color: white;
+        font-family: 'roboto', sans-serif;
+        font-size: 20px;
+ }
+.footer img{
+    width: 200px;
+}
