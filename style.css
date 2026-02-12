@@ -176,7 +176,8 @@ body {
 
 .projectwrapper p {
     font-size: 15px;
-    color: var(--neutral-purple);
+    color: var(--white);
+    font-family: 'roboto', sans-serif;
 }
 
  
@@ -195,6 +196,11 @@ body {
     color: var(--neutral-purple);
     font-size: 20px;
 }
+.foot span{
+    color: rgb(128, 0, 96);
+        font-family: 'roboto', sans-serif;
+
+} 
 
 .logos {
     display: flex;
