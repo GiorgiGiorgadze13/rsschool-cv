@@ -135,7 +135,7 @@ body {
     border: 5px solid black;
     padding: 30px;
 }
-.skillwrapper ul{
+ .skillwrapper ul{
     display: flex;
     flex-wrap: wrap;
     list-style: none;
