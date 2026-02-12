@@ -52,9 +52,9 @@ body {
 }
 
 .mainwrapper {
-    width: 70%;
+    width: 90%;
     display: flex;
-    justify-content: center;
+    justify-content: flex;
     align-items: center;
     gap: 40px;
 
