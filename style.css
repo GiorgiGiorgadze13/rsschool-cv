@@ -140,6 +140,11 @@ body {
     flex-wrap: wrap;
     list-style: none;
 }
+.js{
+    width: 104px;
+    height: 106px;
+    object-fit: contain;
+}
 
 .skillwrapper h2 {
     margin: 0;
