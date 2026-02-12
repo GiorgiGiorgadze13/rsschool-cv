@@ -348,7 +348,7 @@ body {
  
  }
  .footer span{
-    color: white;
+    color: var(--neutral-purple);
         font-family: 'roboto', sans-serif;
         font-size: 20px;
  }
