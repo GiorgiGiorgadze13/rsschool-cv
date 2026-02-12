@@ -56,9 +56,17 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 40px;
 
 }
+.mainwrapper .logo{
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 50%;
+    display: block;
+}
+
 
 .imgcontent img {
     width: 100%;
@@ -89,12 +97,16 @@ body {
     font-weight: 1000;
     color: var(--neutral-purple);
     margin: 0;
+       font-family: 'roboto', sans-serif;
+
 }
 
 .textcontent p {
     font-size: var(--medium-size);
     color: var(--white);
     max-width: 400px;
+        font-family: 'roboto', sans-serif;
+
 }
 
 .intoductionwrapper {
@@ -156,9 +168,9 @@ body {
 }
 
 .educationwrapper {
-    padding: 30px;
+     padding: 30px;
 }
-
+ 
 .examplewrapper h2 {
     font-size: 22px;
     color: var(--neutral-purple);
@@ -168,8 +180,17 @@ body {
     font-size: 20px;
     color: white;
 }
+.examplewrapper pre {
+    white-space: pre-wrap;     
+    word-break: break-word;     
+    overflow-x: auto;          
+    padding: 10px;             
+ 
+}
 
-.projectwrapper h2, li {
+
+.projectwrapper h2, 
+.projectwrapper li {
     font-size: 22px;
     color: var(--neutral-purple);
 }
@@ -241,10 +262,15 @@ body {
      flex-direction: column;
         align-items: center;
     }
+    .footer {
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    align-items: center;
     
 }
 
-
+}
 @media (max-width: 375px) {
   
   .container {
@@ -281,15 +307,17 @@ body {
     text-align: center;
     font-size: 16px;       
   }
+ .footer span {
+    overflow-wrap: break-word;
+    word-break: break-word;
+}
 }
 
 .footer{
     display: flex;
     gap: 40px;
     justify-content: center;
-  
-     
-    
+ 
  }
  .footer span{
     color: white;
@@ -297,5 +325,5 @@ body {
         font-size: 20px;
  }
 .footer img{
-    width: 200px;
+    width: 100px;
 }
